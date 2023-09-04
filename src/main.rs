@@ -4,11 +4,8 @@ extern crate clap;
 extern crate log;
 
 use anyhow::anyhow;
-use chrono::Local;
 use clap::{Arg, ArgMatches, Command};
 use clap_complete::Shell;
-use env_logger::Builder;
-use log::LevelFilter;
 use mdbook::utils;
 use std::env;
 use std::ffi::OsStr;
